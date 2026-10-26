@@ -1,0 +1,16 @@
+# ===== 深度学习框架 =====
+torch
+torchvision
+
+# ===== Transformers / BERT =====
+transformers
+
+# ===== NLP 工具 =====
+jieba
+nltk
+
+# ===== 数据处理 / 科学计算 =====
+pandas
+numpy
+scikit-learn
+tqdm

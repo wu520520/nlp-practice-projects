@@ -1,0 +1,33 @@
+# ===== IDE / 系统 / 缓存 =====
+.idea/
+.vscode/
+*.iml
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+logs/
+.DS_Store
+
+# ===== 大型公开数据集（可自行下载，不入库） =====
+/BERT_model/
+/data/
+
+# ===== 模型权重 / 训练产物 =====
+/models/
+/model/
+*.pt
+*.pth
+*.h5
+*.safetensors
+*.msgpack
+*.onnx
+*.ckpt
+runs/
+
+# ===== 数据处理中间产物（任意层级） =====
+**/data/processed/
+
+# ===== 虚拟环境 / 依赖 =====
+.venv/
+venv/
+env/
